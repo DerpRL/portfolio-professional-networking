@@ -123,7 +123,7 @@
 }
 
 #skillHtmlIcon {
-    top: 560px;
+    top: 550px;
     left: 45px;
 }
 
@@ -135,7 +135,7 @@
 
 #skillCard > div {
     width: 45%;
-    margin: 2.5rem auto;
+    margin: 2.8rem auto;
 }
 
 #skillCard > div:first-of-type {
