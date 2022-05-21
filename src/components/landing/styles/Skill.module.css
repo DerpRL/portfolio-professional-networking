@@ -1,0 +1,23 @@
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    padding-left: 3px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.skillProgress {
+    width: 100%;
+    height: 10px;
+    border-radius: 8px;
+    background-color: #848586;
+}
+
+.skillBar {
+    height: 10px;
+    border-radius: 8px;
+    z-index: 2;
+}

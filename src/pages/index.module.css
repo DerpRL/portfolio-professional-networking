@@ -1,0 +1,147 @@
+#eyeOpenerSection {
+    display: flex;
+    flex-flow: row;
+    width: 70%;
+    margin: 5rem auto 7rem auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#eyeOpenerSection > div {
+    width: 47% ;
+}
+
+#eyeOpenerSection p:first-of-type {
+    color: #f89845;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+#eyeOpenerSection p:last-of-type {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 50px;
+    line-height: 110%;
+}
+
+#hyperlinksEyeOpener {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+#hyperlinksEyeOpener a {
+    padding: 5px 32px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    background-color: #4467ff;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+#hyperlinksEyeOpener svg {
+    fill: white;
+    width: 18px;
+    height: 18px;
+}
+
+#hyperlinksEyeOpener a {
+    text-decoration: none;
+    color: white;
+}
+
+#hyperlinksEyeOpener svg {
+    margin-left: 6px;
+}
+
+#hyperlinksEyeOpener path {
+    stroke: white;
+}
+
+/* Skills Section */
+
+#skillSection {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    margin: 4rem auto;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#skillSection h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 600;
+    z-index: 2;
+}
+
+#skillDecorationBlobs img {
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    position: absolute;
+}
+
+#skillCard {
+    width: 70%;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 5px;
+    margin: 3rem auto ;
+}
+
+#skillNextJSIcon {
+    top: 5px;
+    right: 5px;
+}
+
+#skillCSSIcon {
+    top: 265px;
+    right: 65px;
+}
+
+#skillReactIcon {
+    top: 574px;
+    right: 25px;
+}
+
+#skillNodeJSIcon {
+    top: 75px;
+    left: 20px;
+}
+
+#skillJavaScriptIcon {
+    top: 315px;
+    left: 70px;
+}
+
+#skillHtmlIcon {
+    top: 560px;
+    left: 45px;
+}
+
+#skillCard {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#skillCard > div {
+    width: 45%;
+    margin: 2.5rem auto;
+}
+
+#skillCard > div:first-of-type {
+    margin-left: 15px;
+}
+
+#skillCard > div:last-of-type {
+    margin-right: 15px;
+}
