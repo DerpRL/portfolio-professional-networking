@@ -20,6 +20,7 @@ const blogPostPortfolio: NextPage = () => {
                     <h1>Code Challenges In Hack The Future</h1>
                     <span>2 Dec, 2021</span>
                     <ul id={styles.blogTopics}>
+                        <li><BsArrowRightCircle/>Hackathon</li>
                         <li><BsArrowRightCircle/>Hack The Future</li>
                         <li><BsArrowRightCircle/>Zinderlabs</li>
                         <li><BsArrowRightCircle/>Express</li>
@@ -30,7 +31,6 @@ const blogPostPortfolio: NextPage = () => {
                         <a rel={"noreferrer"} id={styles.socialGitHub} href={"https://github.com/DerpRL/hackthefuture"} target={"_blank"}><BsGithub/>GitHub</a>
                         <a id={styles.socialWeb} rel={"noreferrer"} target={"_blank"} href={"https://www.hackthefuture.be/home"}><BsGlobe/>Hack The Future</a>
                         <a id={styles.socialLinkedIn} rel={"noreferrer"} target={"_blank"} href={"https://www.linkedin.com/in/simon-plyson-b1b486221/"}><BsLinkedin/>Simon Plyson</a>
-
                     </div>
                 </div>
                 <p>Code challenge where we had to find the murderer and the murder weapon using an algorithm that takes several factors into account and outputs a number of suspicion.</p>

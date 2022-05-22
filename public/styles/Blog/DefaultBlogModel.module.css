@@ -29,7 +29,7 @@
 #blogTopics {
     margin: 0.5rem 0 1rem 0;
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     align-items: flex-start;
 }
 
@@ -40,11 +40,8 @@
     align-items: center;
     padding: 3px 0;
     font-size: 1.1rem;
+    margin-right: 20px;
     color: #f89845;
-}
-
-#blogTopics li:not(:first-of-type) {
-    margin-left: 20px;
 }
 
 #blogTopics svg {
@@ -56,7 +53,7 @@
     line-height: 140%;
     font-size: 1.1rem;
     color: #4a4a4a;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 #blogSocials {
@@ -99,4 +96,10 @@
 #socialLinkedIn {
     color: white;
     background-color: #551A8B;
+}
+
+
+#socialYouTube {
+    color: white;
+    background-color: #FF0000;
 }

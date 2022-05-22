@@ -31,17 +31,17 @@ const Blog: NextPage = () => {
                         blogShortDesc={"Doing the hackaton from Hack The Future were i was joined by Simon Plyson. We both joined the Zinderlabs challenges."}
                         blogSlug={"hack-the-future-zinderlabs"} />
                     <BlogCard
+                        splashURL={"cyber-santa.png"}
+                        blogDate={"14 Dec, 2021"}
+                        blogTitle={"Cyber Santa Is Coming To Town"}
+                        blogShortDesc={"A conference stream of a hacking party where different people share their opinions about things and techniques."}
+                        blogSlug={"cyber-santa-is-coming-to-town"} />
+                    <BlogCard
                         splashURL={"cisco-it-young-challenge.png"}
                         blogDate={"5 April, 2022"}
                         blogTitle={"IT Young Potential Challenge 2022"}
                         blogShortDesc={"The IT Young Potential Belgium is a Challenge designed to inspire creative and dynamic computer science Students & Young Professionals."}
                         blogSlug={"cisco-it-young-challenge-2022"} />
-                    <BlogCard
-                        splashURL={"head-blog-illustration.jpg"}
-                        blogDate={"18 May, 2022"}
-                        blogTitle={"Creating My Personal Portfolio"}
-                        blogShortDesc={"djqjd qj dj q djuq  dq udb qbudbuqbduq dq dubqd q dbq djqdubqubdq d qubdqu duqbudbqubd qdubqubduqbd qzd quibzdbqdbqub"}
-                        blogSlug={"creating-my-personal-portfolio"} />
                 </div>
             </main>
         </>
