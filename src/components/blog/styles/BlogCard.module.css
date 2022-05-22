@@ -1,0 +1,56 @@
+.blogCard {
+    display: flex;
+    flex-flow: column;
+    width: 28%;
+    max-width: 30%;
+    min-width: 300px;
+    margin-bottom: 3.5rem;
+}
+
+.blogCard > span {
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}
+
+.blogCard > div {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.blogCard > div span {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #a3a3a3;
+}
+
+.blogCard > div h2 {
+    font-size: 2.1rem;
+    padding: 5px 0 15px 0;
+    font-weight: 600;
+}
+
+.blogCard > div p {
+    font-size: 1rem;
+    line-height: 110%;
+    color: #4a4a4a;
+    min-height: 80px;
+    height: 80px;
+    max-height: 80px;
+}
+
+.blogCard > a {
+    padding: 5px 0;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    background-color: #f89845;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    justify-content: center;
+}

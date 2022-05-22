@@ -3,6 +3,7 @@ import Image from "next/image";
 import Head from "next/head"
 import { GrProjects, GrCircleInformation } from "react-icons/gr";
 import { BiMessageRoundedEdit } from "react-icons/bi";
+import { BsDownload } from "react-icons/bs"
 import { DefaultHeader } from "../components/header/DefaultHeader"
 import styles from './index.module.css'
 import { Skill } from "../components/landing/Skill";
@@ -26,8 +27,9 @@ const Home: NextPage = () => {
                       <p>Creating stunning user interfaces with the help of frameworks!</p>
                       <div id={styles.hyperlinksEyeOpener}>
                           <a href={"/projects"}>Projects <GrProjects/></a>
-                          <a href={"/blogs"}>Blog <BiMessageRoundedEdit/></a>
-                          <a href={"/blogs"}>Contact <GrCircleInformation/></a>
+                          <a href={"/blog"}>Blog <BiMessageRoundedEdit/></a>
+                          <a href={"/contact"}>Contact <GrCircleInformation/></a>
+                          <a href={"/cv.pdf"} download>Download CV <BsDownload/></a>
                       </div>
                   </div>
                   <div>

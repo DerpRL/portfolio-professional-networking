@@ -1,0 +1,25 @@
+#blogPage {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    margin: 5rem auto 7rem auto;
+}
+
+#blogPage > h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+
+#blogsGrid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#blogs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}

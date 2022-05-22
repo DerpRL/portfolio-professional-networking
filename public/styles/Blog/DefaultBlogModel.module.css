@@ -1,0 +1,97 @@
+#blogPost {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    margin: 5rem auto 7rem auto;
+}
+
+#blogPost div:first-child {
+    width: 100%;
+    border-bottom: 1px solid rgba(232, 232, 232, 0.88);
+    margin-bottom: 3rem;
+}
+
+#blogPost h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+#blogPost h2 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+#blogPost div span {
+    font-style: italic;
+}
+
+#blogTopics {
+    margin: 0.5rem 0 1rem 0;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+}
+
+#blogTopics li {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3px 0;
+    font-size: 1.1rem;
+    color: #f89845;
+}
+
+#blogTopics li:not(:first-of-type) {
+    margin-left: 20px;
+}
+
+#blogTopics svg {
+    margin-right: 5px;
+}
+
+#blogPost > p {
+    letter-spacing: 1px;
+    line-height: 140%;
+    font-size: 1.1rem;
+    color: #4a4a4a;
+    padding-bottom: 40px;
+}
+
+#blogSocials {
+    margin-bottom: 0.25rem;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+}
+
+#blogSocials a:hover {
+    cursor: pointer;
+}
+
+#blogSocials a {
+    padding: 3px 25px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    text-decoration: none;
+}
+
+#blogSocials svg {
+    margin-right: 5px;
+}
+
+#socialGitHub {
+    color: white;
+    background-color: #000;;
+}
+
+#socialWeb {
+    color: white;
+    background-color: #4467ff;
+}
